@@ -1,4 +1,3 @@
-
 #[tokio::test]
 async fn health_check_works() {
     let address = spawn_app();
@@ -21,5 +20,3 @@ fn spawn_app() -> String {
     tokio::spawn(server);
     format!("http://127.0.0.1:{}", port)
 }
-
-
