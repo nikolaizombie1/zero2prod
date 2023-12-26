@@ -1,4 +1,6 @@
-use zero2prod::run;
+mod startup;
+
+use startup::run;
 
 #[tokio::main]
 async fn main() -> Result<(), std::io::Error> {
