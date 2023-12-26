@@ -1,4 +1,3 @@
-
 use zero2prod::startup::run;
 
 #[tokio::main]
